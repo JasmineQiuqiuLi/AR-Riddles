@@ -2,7 +2,5 @@
 * text=auto
 *.tgz filter=lfs diff=lfs merge=lfs -text
 ARRiddles/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
-C:/Users/31500/Documents/GitHub/AR[[:space:]]Apps/ARRiddles/ARRiddles/Library/PackageCache/com.ptc.vuforia.engine@9accda8169f2 filter=lfs diff=lfs merge=lfs -text
-C:/Users/31500/Documents/GitHub/AR[[:space:]]Apps/ARRiddles/ARRiddles/Library/PackageCache/com.ptc.vuforia.engine@9accda8169f2/Vuforia/Plugins/iOS/VuforiaEngine.framework/VuforiaEngine filter=lfs diff=lfs merge=lfs -text
-C:/Users/31500/Documents/GitHub/AR[[:space:]]Apps/ARRiddles/ARRiddles/Library/PackageCache/com.ptc.vuforia.engine@9accda8169f2/Vuforia/Plugins/iOS/VuforiaEngine.framework/VuforiaEngine filter=lfs diff=lfs merge=lfs -text
 ARRiddles/Library/PackageCache/com.ptc.vuforia.engine@9accda8169f2/Vuforia/Plugins/iOS/VuforiaEngine.framework/VuforiaEngine filter=lfs diff=lfs merge=lfs -text
+*.bc filter=lfs diff=lfs merge=lfs -text
