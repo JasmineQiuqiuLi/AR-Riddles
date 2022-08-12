@@ -34,7 +34,7 @@ public class AudioManager : MonoBehaviour
                 case AnimalType.Rabbit:
                     audioSource.PlayOneShot(rabbit);
                     break;
-                case AnimalType.Scorpian:
+                case AnimalType.Scorpion:
                     audioSource.PlayOneShot(scorpian);
                     break;
                 case AnimalType.Snail:
@@ -58,7 +58,14 @@ public class AudioManager : MonoBehaviour
 
     public void SetAnimalNameText(AnimalType type)
     {
+        if (type == AnimalType.SwanGoose)
+        {
+            text_animalName.text = "Swan Goose";
+            return;
+        }
+
         text_animalName.text = type.ToString();
+        
     }
 
     public void SetAnimalNameTextToNone()

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public enum AnimalType
 {
     Crab,
-    Scorpian,
+    Scorpion,
     Snail,
     SwanGoose,
     Wolf,
